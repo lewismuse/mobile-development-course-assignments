@@ -1,0 +1,20 @@
+function fibon (n) {
+  if (n === 0)
+    return 0;
+  if (n === 1)
+    return 1;
+  return fibon(n-1) + fibon(n-2);
+  
+}
+
+/*console.log(fibon(0));
+
+
+console.log(fibon(1));
+console.log(fibon(2));
+console.log(fibon(3));
+console.log(fibon(10));*/
+for (var i = 0; i < 10;i++)
+  {
+    console.log(fibon(i));
+  }
